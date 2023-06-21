@@ -57,8 +57,7 @@
           "react-hooks/exhaustive-deps": "warn",
           "react/display-name": "off",
           "@typescript-eslint/explicit-module-boundary-types": "off",
-          "@typescript-eslint/no-explicit-any": "off",
-          "@typescript-eslint/switch-exhaustiveness-check": "warn"
+          "@typescript-eslint/no-explicit-any": "off"
         }
       }
     ]
@@ -76,6 +75,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-plugin-prettier": "^4.2.1",
     "tailwindcss": "^3.3.2"
   },
   "husky": {
