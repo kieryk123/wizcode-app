@@ -10,6 +10,7 @@
     "@types/node": "^16.18.36",
     "@types/react": "^18.2.13",
     "@types/react-dom": "^18.2.6",
+    "axios": "^1.4.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
@@ -34,9 +35,7 @@
     "extends": [
       "react-app"
     ],
-    "rules": {
-
-    },
+    "rules": {},
     "plugins": [
       "prettier",
       "react",

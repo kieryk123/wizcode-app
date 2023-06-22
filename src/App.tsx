@@ -1,10 +1,10 @@
-import React from "react"
+import { AlbumsView } from "./views"
 
 function App() {
     return (
-        <div>
-            <h1 className="text-2xl font-bold underline">Hello world!</h1>
-        </div>
+        <main className="flex flex-col items-center p-5">
+            <AlbumsView />
+        </main>
     )
 }
 
