@@ -14,6 +14,7 @@ export const AlbumsView = () => {
                 <input
                     name="search"
                     type="search"
+                    placeholder="Type something..."
                     value={albumsQuery}
                     onChange={e => setAlbumsQuery(e.currentTarget.value)}
                     required
