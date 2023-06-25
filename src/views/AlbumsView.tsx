@@ -8,7 +8,7 @@ export const AlbumsView = () => {
     const [albumsQuery, setAlbumsQuery] = useRecoilState(albumsQueryState)
 
     return (
-        <section className="max-w-xl">
+        <section className="max-w-xl w-full">
             <header>
                 <h1 className="text-3xl font-bold text-center">Top 100 music albums</h1>
                 <input

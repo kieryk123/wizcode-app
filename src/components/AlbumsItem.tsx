@@ -12,7 +12,7 @@ export const AlbumsItem = ({ title, author, coverUrl, id }: AlbumsItemProps) => 
 
     return (
         <li className="flex justify-between gap-x-6 py-5 max-w-full">
-            <div className="flex gap-x-4 max-w-full">
+            <div className="flex gap-x-4 overflow-hidden">
                 <img
                     className="h-55 w-55 flex-none rounded-full bg-gray-50"
                     alt=""
@@ -21,10 +21,8 @@ export const AlbumsItem = ({ title, author, coverUrl, id }: AlbumsItemProps) => 
                     height="55"
                     width="55"
                 />
-                <div className="min-w-0 flex flex-col flex-auto justify-center">
-                    <p className="text-sm font-semibold leading-6 text-gray-900 truncate overflow-hidden max-w-sm">
-                        {title}
-                    </p>
+                <div className="flex flex-col flex-auto justify-center min-w-0 ">
+                    <p className="text-sm font-semibold leading-6 text-gray-900 truncate overflow-hidden">{title}</p>
                     <p className="truncate text-xs leading-5 text-gray-500">{author}</p>
                 </div>
             </div>
