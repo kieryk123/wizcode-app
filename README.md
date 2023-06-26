@@ -60,3 +60,7 @@ Here is the list:
 *   Tailwind
 *   Prettier
 *   ESLint
+
+## Future improvements and ideas
+
+As the app grows, I would add some router solution to manage the app routes. I would also consider adding storybook to manage components and make it easier to collaborate with designers. For sure I would add some more tests.
